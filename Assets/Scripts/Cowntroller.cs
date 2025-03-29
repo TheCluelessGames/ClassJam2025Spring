@@ -183,5 +183,7 @@ public class Cowntroller : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
+
     
 }

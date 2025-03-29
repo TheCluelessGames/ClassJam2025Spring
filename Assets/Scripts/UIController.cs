@@ -40,7 +40,7 @@ public class UIController : MonoBehaviour
     {
         yield return StartCoroutine(Fade(1)); // Fade to black
         SceneManager.LoadScene(sceneName);
-        yield return StartCoroutine(Fade(0)); // Fade back in
+        yield return StartCoroutine(Fade(-1)); // Fade back in
     }
 
     private IEnumerator Fade(float targetAlpha)
