@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6842773601616483308}
+  - component: {fileID: -6687264404584561520}
   m_Layer: 0
   m_Name: Scenario9
   m_TagString: LevelPart
@@ -38,6 +39,19 @@ Transform:
   - {fileID: 1935564956082521955}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6687264404584561520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220916763345413762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d759e191e3cb551488fd31c74a07c532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
 --- !u!1 &1082356833486352218
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +456,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 5
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 731797671368090219, guid: 8e1e5cc831e024f4a824907795dbb90c, type: 3}
 --- !u!1 &6872625600280975734
 GameObject:
@@ -588,7 +605,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 3
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 7696814110467316985, guid: c0826df753aa18c469e8b139e1320eb7, type: 3}
 --- !u!1 &7722260182884123001
 GameObject:
@@ -734,7 +754,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 4
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 731797671368090219, guid: df96722018388e24f8c9b4999bc80e04, type: 3}
 --- !u!1 &8060042514904933299
 GameObject:
@@ -880,7 +903,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 6
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 731797671368090219, guid: 6456b17bc30889446bf93da8a075d7cd, type: 3}
 --- !u!1001 &3033488662334301174
 PrefabInstance:

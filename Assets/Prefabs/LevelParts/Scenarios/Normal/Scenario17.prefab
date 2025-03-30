@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1789491655351139495}
+  - component: {fileID: 7873931210928614706}
   m_Layer: 0
   m_Name: Scenario17
   m_TagString: LevelPart
@@ -40,6 +41,19 @@ Transform:
   - {fileID: 7818699195095283850}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7873931210928614706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013018588361962405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d759e191e3cb551488fd31c74a07c532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
 --- !u!1 &1510369052261204486
 GameObject:
   m_ObjectHideFlags: 0

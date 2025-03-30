@@ -274,7 +274,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 5
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 731797671368090219, guid: 8e1e5cc831e024f4a824907795dbb90c, type: 3}
 --- !u!1 &849958909255339219
 GameObject:
@@ -550,7 +553,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 3
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 7696814110467316985, guid: c0826df753aa18c469e8b139e1320eb7, type: 3}
 --- !u!1 &1139475073431974229
 GameObject:
@@ -696,7 +702,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 4
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 731797671368090219, guid: df96722018388e24f8c9b4999bc80e04, type: 3}
 --- !u!1 &4738635173734594397
 GameObject:
@@ -842,7 +851,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 6
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 731797671368090219, guid: 6456b17bc30889446bf93da8a075d7cd, type: 3}
 --- !u!1 &6864034303991214125
 GameObject:
@@ -853,6 +865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1056824119012376553}
+  - component: {fileID: 1674898744454210235}
   m_Layer: 0
   m_Name: Scenario8
   m_TagString: LevelPart
@@ -882,6 +895,19 @@ Transform:
   - {fileID: 8848454063521278862}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1674898744454210235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6864034303991214125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d759e191e3cb551488fd31c74a07c532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
 --- !u!1001 &7961797670309329642
 PrefabInstance:
   m_ObjectHideFlags: 0
