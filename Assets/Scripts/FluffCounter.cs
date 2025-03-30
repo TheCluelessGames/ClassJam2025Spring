@@ -5,24 +5,20 @@ using UnityEngine;
 
 public class FluffCounter : MonoBehaviour
 {
-    UIController uIController;
-    public TextMeshProUGUI text;
+    [SerializeField] private TextMeshProUGUI text;
     float fluff=0;
     // Start is called before the first frame update
     void Start()
     {
-        uIController = GameObject.Find("UIController").GetComponent<UIController>();
     }
 
     public void FluffCollected()
     {
         fluff++;
-        text.text = ""+fluff;
-        if (uIController != null)
-        {
-            uIController.fluffCount++;
-        }
-        
+        text.text = ""+fluff +"";
+        GlobalVariables.playerScore++;
+
+
     }
 
     // Update is called once per frame

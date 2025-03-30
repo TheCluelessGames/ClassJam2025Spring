@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 50
+  m_SortingOrder: 48
   m_Sprite: {fileID: 21300000, guid: dc19499d7ea3a6a49852f9be52c305f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -180,6 +180,8 @@ MonoBehaviour:
   trees:
   - {fileID: 6543380559619434747}
   - {fileID: 6190485864586997154, guid: 6d0a32bb0b16f4b4382aa39e9e44999b, type: 3}
+  - {fileID: 6429880236935665686, guid: 44459024db73a044e9427282b08222dd, type: 3}
+  - {fileID: 7952358620145126249, guid: cf686b949e0bcf541be914abffa0e261, type: 3}
   mountains: []
   fields: []
   sky: {fileID: 0}

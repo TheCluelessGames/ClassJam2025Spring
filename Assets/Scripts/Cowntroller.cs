@@ -20,16 +20,17 @@ public class Cowntroller : MonoBehaviour
     [SerializeField] private List<Sprite> Purple;
     [SerializeField] private List<Sprite> Yellow;
 
+    public FluffCounter fluffCounter;
     private Vector3 targetPosition;
     private bool isJumping = false;
 
     void Start()
     {
         uIController = GameObject.Find("UIController").GetComponent<UIController>();
-        isJumping = true;
         currentType = EnemyCowController.ObjectType.White;
         
         targetPosition = UpperJumpPoint.position;
+        isJumping = true;
         StartMoving();
     }
 
@@ -126,8 +127,10 @@ public class Cowntroller : MonoBehaviour
             {
                 Grow();
                 otherCow.Undress();
-                FluffCounter fluffCounter = new FluffCounter();
                 fluffCounter.FluffCollected();
+                currentType = EnemyCowController.ObjectType.White;
+                collision.gameObject.GetComponent<EnemyCowController>().Poof();
+                ChangeColour();
             }
             else
             {

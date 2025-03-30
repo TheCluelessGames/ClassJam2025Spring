@@ -269,6 +269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9095169516052901261}
+  - component: {fileID: 3443629850080141953}
   m_Layer: 0
   m_Name: WinterScenario6
   m_TagString: LevelPart
@@ -295,6 +296,19 @@ Transform:
   - {fileID: 2303839630332597958}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3443629850080141953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3384372333577252452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d759e191e3cb551488fd31c74a07c532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 3
 --- !u!1 &4703133807858329869
 GameObject:
   m_ObjectHideFlags: 0

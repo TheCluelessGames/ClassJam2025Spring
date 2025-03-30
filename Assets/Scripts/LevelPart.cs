@@ -10,7 +10,7 @@ public class LevelPart : MonoBehaviour
 
     void Awake()
     {
-        SpawnScenario();        
+        SpawnScenario();
     }
 
     void Update()

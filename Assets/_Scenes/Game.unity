@@ -14905,6 +14905,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aeecf1991e4dcd449bf3723dd769733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1386421829 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2470388516123531413, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
+  m_PrefabInstance: {fileID: 6672571628710579325}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79379a68e0a529343b266931f31652cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1532382150 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8717622581842738619, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
@@ -19826,6 +19837,9 @@ MonoBehaviour:
   currentSeason: 0
   levelParts:
   - {fileID: 5979713476258285866, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
+  - {fileID: 3836378744260829835, guid: fe32dd0f4a0a24a438ead506d55cfb24, type: 3}
+  - {fileID: 6225806392169334337, guid: 8d2153d50a8a1a145860bf5837cca29e, type: 3}
+  - {fileID: 7550301455435154738, guid: f9bbeb0fac181034eb00c508fcffa080, type: 3}
   weather:
   - {fileID: 1218128959}
   - {fileID: 1749295860}
@@ -20046,6 +20060,10 @@ PrefabInstance:
       value: LevelPart
       objectReference: {fileID: 0}
     - target: {fileID: 5425158193797540984, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
+      propertyPath: scenarios.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425158193797540984, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
       propertyPath: scenarios.Array.data[0]
       value: 
       objectReference: {fileID: 7459801360308544737, guid: 6f237e7a4739d8644bfe1e123667c0a9, type: 3}
@@ -20111,6 +20129,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1729348830966230777, guid: d9fef42fead46bc49bf92b51e7f9104e, type: 3}
+      propertyPath: type
+      value: Field
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942982646306686642, guid: d9fef42fead46bc49bf92b51e7f9104e, type: 3}
+      propertyPath: type
+      value: Tree
+      objectReference: {fileID: 0}
     - target: {fileID: 8880953441526871858, guid: d9fef42fead46bc49bf92b51e7f9104e, type: 3}
       propertyPath: m_Name
       value: Background
@@ -20136,9 +20162,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gameplay_UI
       objectReference: {fileID: 0}
+    - target: {fileID: 5007700489589597445, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 830049634}
     - target: {fileID: 6363123974908986349, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
       propertyPath: m_SortingOrder
       value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133250475697744911, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8020243959778332627, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20233,6 +20267,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2266824234838921904, guid: 96c29393c54072b4591b5a8141ec85a4, type: 3}
+      propertyPath: fluffCounter
+      value: 
+      objectReference: {fileID: 1386421829}
     - target: {fileID: 2266824234838921904, guid: 96c29393c54072b4591b5a8141ec85a4, type: 3}
       propertyPath: LowerJumpPoint
       value: 

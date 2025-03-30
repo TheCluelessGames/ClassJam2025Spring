@@ -15,16 +15,19 @@ public class ScenarioController : MonoBehaviour
         switch (type)
         {
             case EnemyCowController.ObjectType.Purple:
+                indicator.transform.gameObject.SetActive(true);
                 indicator.ChangeColour(purple);
                 break;
             case EnemyCowController.ObjectType.Orange:
+                indicator.transform.gameObject.SetActive(true);
                 indicator.ChangeColour(orange);
                 break;
             case EnemyCowController.ObjectType.Green:
+                indicator.transform.gameObject.SetActive(true);
                 indicator.ChangeColour(green);
                 break;
             case EnemyCowController.ObjectType.White:
-                indicator.Hide();
+                indicator.transform.gameObject.SetActive(false);
                 break;
 
         }

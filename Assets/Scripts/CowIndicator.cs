@@ -10,12 +10,6 @@ public class CowIndicator : MonoBehaviour
 
     public void ChangeColour(Color colour)
     {
-        spriteRenderer.gameObject.transform.gameObject.SetActive(true);
         spriteRenderer.color = colour;
-    }
-
-    public void Hide()
-    {
-        spriteRenderer.gameObject.transform.gameObject.SetActive(false);
     }
 }

@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 80
+  m_SortingOrder: 49
   m_Sprite: {fileID: 21300000, guid: 5ec7f3509d30c1644bc73e9ecb9d3fac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -203,7 +203,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 80
+  m_SortingOrder: 49
   m_Sprite: {fileID: 21300000, guid: 5ec7f3509d30c1644bc73e9ecb9d3fac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -364,7 +364,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 80
+  m_SortingOrder: 49
   m_Sprite: {fileID: 21300000, guid: 5ec7f3509d30c1644bc73e9ecb9d3fac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -494,7 +494,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 80
+  m_SortingOrder: 49
   m_Sprite: {fileID: 21300000, guid: 5ec7f3509d30c1644bc73e9ecb9d3fac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -592,6 +592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3478452173474933731}
   - component: {fileID: 5425158193797540984}
+  - component: {fileID: 8760621548673160141}
   m_Layer: 0
   m_Name: LevelPart
   m_TagString: LevelPart
@@ -653,6 +654,27 @@ MonoBehaviour:
   nextLevelSpawner: {fileID: 3140938802933998804}
   currentScenario: {fileID: 0}
   transition: {fileID: 0}
+--- !u!65 &8760621548673160141
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979713476258285866}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8049393, y: 2.7099361, z: 1}
+  m_Center: {x: 39.28101, y: -7.0297337, z: 0}
 --- !u!1001 &5920151225285873667
 PrefabInstance:
   m_ObjectHideFlags: 0
