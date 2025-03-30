@@ -59,3 +59,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiHoverSound: {fileID: 8300000, guid: da9abdf29bf6f36438078cdab30b822d, type: 3}
+  uiClickSound: {fileID: 8300000, guid: 18940a6607293d74493eae0d8b8ccccd, type: 3}

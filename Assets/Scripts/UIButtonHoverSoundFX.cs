@@ -5,6 +5,7 @@ using UnityEngine;
 public class UIButtonHoverSoundFX : MonoBehaviour
 {
     [SerializeField] private AudioClip uiHoverSound;
+    [SerializeField] private AudioClip uiClickSound;
 
     private AudioSource audioSource;
 
@@ -19,5 +20,12 @@ public class UIButtonHoverSoundFX : MonoBehaviour
     public void HoverSound()
     {
         SoundFXManager.Instance.PlaySoundFXClip(uiHoverSound, transform, 0.25f);
+    }
+
+    public void UIButtonClicked()
+    {
+        //this in mainly used in the game scene :`D
+        SoundFXManager.Instance.PlaySoundFXClip(uiClickSound, transform, 0.5f);
+
     }
 }
