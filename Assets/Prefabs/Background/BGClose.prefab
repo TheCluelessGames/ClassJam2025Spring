@@ -150,7 +150,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0005302876, y: -0.0028221458}
+  m_Offset: {x: 6.5497513, y: 0.5637193}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -161,7 +161,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25331643, y: 0.3110977}
+  m_Size: {x: 7.311489, y: 8.036663}
   m_EdgeRadius: 0
 --- !u!114 &4752650981922778749
 MonoBehaviour:
@@ -176,5 +176,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSpeed: 3
-  nextBG: {fileID: 5811205613198787026}
+  currentSeason: 0
+  trees: []
+  mountains: []
+  fields:
+  - {fileID: 4961875822069182138, guid: fff93bd4b784440499bc71806c9172f6, type: 3}
+  - {fileID: 8637453138529535623, guid: d21b2585be566584caa51abd9de9ab5d, type: 3}
+  - {fileID: 1868587941539840521, guid: 08d299b2fbe91ed499a25b837e4f07c8, type: 3}
+  - {fileID: 2144189719197445777, guid: 3cbb25dbaf54c4a40b9a8c08f3a5e8c6, type: 3}
+  type: Field
   spawnPoint: {fileID: 0}

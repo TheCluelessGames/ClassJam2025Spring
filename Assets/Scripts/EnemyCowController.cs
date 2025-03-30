@@ -11,7 +11,6 @@ public class EnemyCowController : MonoBehaviour
     public Sprite NakedCowSprite;
     private SpriteRenderer spriteRenderer;
     public GameObject particlePrefab;
-    public ObjectType GetObjectType() { return selectedType; }
 
     private void Awake()
     {

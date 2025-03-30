@@ -143,6 +143,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a0b0cdd2e8aff54680976433c3779dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundSpeed: 1
-  nextBG: {fileID: 4778587034234726312}
+  backgroundSpeed: 3
+  currentSeason: 0
+  trees: []
+  mountains: []
+  fields: []
+  sky: {fileID: 4778587034234726312}
+  type: Sky
   spawnPoint: {fileID: 0}
