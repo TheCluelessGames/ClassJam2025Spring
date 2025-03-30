@@ -8,18 +8,15 @@ public class EnemyCowController : MonoBehaviour
 {
     public enum ObjectType {Orange, Purple, Green, White, Red, Blue, Yellow}
     public ObjectType selectedType;
-    public Sprite NakedCowSprite;
-    private SpriteRenderer spriteRenderer;
+    public Sprite NakedCowHeadSprite, NakedCowBodySprite;
+    public SpriteRenderer headRenderer, bodyRenderer;
     public GameObject particlePrefab;
 
-    private void Awake()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();  
-    }
     public void Undress()
     {
         Poof();
-        spriteRenderer.sprite = NakedCowSprite;
+        headRenderer.sprite = NakedCowHeadSprite;
+        bodyRenderer.sprite = NakedCowBodySprite;
     }
 
     public void Poof()

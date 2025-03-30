@@ -92,7 +92,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSpeed: 1.5
-  nextBG: {fileID: 5678266036044860530}
+  currentSeason: 0
+  trees: []
+  mountains: []
+  fields: []
+  sky: {fileID: 0}
+  type: Mountain
   spawnPoint: {fileID: 0}
 --- !u!1 &6843015052368319391
 GameObject:

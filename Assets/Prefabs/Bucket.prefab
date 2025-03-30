@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6824576005267004304}
   m_Layer: 0
   m_Name: Bucket
-  m_TagString: Flower
+  m_TagString: Bucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,5 +144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedType: 3
-  NakedCowSprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 0}
+  NakedCowBodySprite: {fileID: 0}
+  headRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
   particlePrefab: {fileID: 7696814110467316985, guid: c0826df753aa18c469e8b139e1320eb7, type: 3}

@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1199774752644249332, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1389407607, guid: dd0cdceef5dd50c49936d166950bddab, type: 3}
+    - target: {fileID: 3705657644596577383, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 113779980, guid: e61bc5fd0b4a14541a9f697585d78d57, type: 3}
     - target: {fileID: 4663557000671885175, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -28,6 +36,18 @@ PrefabInstance:
       propertyPath: particlePrefab
       value: 
       objectReference: {fileID: 731797671368090219, guid: b38b3454f1d55c8408cae5ad602ce8db, type: 3}
+    - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: NakedCowBodySprite
+      value: 
+      objectReference: {fileID: -696540238, guid: dd0cdceef5dd50c49936d166950bddab, type: 3}
+    - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: NakedCowHeadSprite
+      value: 
+      objectReference: {fileID: -492959080, guid: dd0cdceef5dd50c49936d166950bddab, type: 3}
+    - target: {fileID: 5516436699111264667, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2002190769, guid: e61bc5fd0b4a14541a9f697585d78d57, type: 3}
     - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

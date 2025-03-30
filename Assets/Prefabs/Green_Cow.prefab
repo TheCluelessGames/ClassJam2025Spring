@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1199774752644249332, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8062678, guid: 9a0c7f25c4fe6ca44bb1222e6117f80a, type: 3}
+    - target: {fileID: 3705657644596577383, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -422451775, guid: 9a0c7f25c4fe6ca44bb1222e6117f80a, type: 3}
     - target: {fileID: 4663557000671885175, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
       propertyPath: m_Color.b
       value: 0.065425634
@@ -21,6 +29,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: bodyRenderer
+      value: 
+      objectReference: {fileID: 3554539518041100797}
+    - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: headRenderer
+      value: 
+      objectReference: {fileID: 5672055952350299137}
+    - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
       propertyPath: selectedType
       value: 2
       objectReference: {fileID: 0}
@@ -28,6 +44,18 @@ PrefabInstance:
       propertyPath: particlePrefab
       value: 
       objectReference: {fileID: 731797671368090219, guid: cb9ea9822870c234aa2f052ae2b8df60, type: 3}
+    - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: NakedCowBodySprite
+      value: 
+      objectReference: {fileID: -165531036, guid: 8107c291dd2a0c84b8bb6758dc406268, type: 3}
+    - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: NakedCowHeadSprite
+      value: 
+      objectReference: {fileID: 1567867275, guid: 8107c291dd2a0c84b8bb6758dc406268, type: 3}
+    - target: {fileID: 5516436699111264667, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -414348801, guid: 9a0c7f25c4fe6ca44bb1222e6117f80a, type: 3}
     - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -70,10 +98,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8435996379146935861, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
       propertyPath: m_Name
-      value: Blue_Cow
+      value: Green_Cow
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+--- !u!212 &3554539518041100797 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5516436699111264667, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+  m_PrefabInstance: {fileID: 9068581865213460582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &5672055952350299137 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3705657644596577383, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+  m_PrefabInstance: {fileID: 9068581865213460582}
+  m_PrefabAsset: {fileID: 0}

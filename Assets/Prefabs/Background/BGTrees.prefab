@@ -176,5 +176,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSpeed: 2
-  nextBG: {fileID: 6543380559619434747}
+  currentSeason: 0
+  trees:
+  - {fileID: 6543380559619434747}
+  - {fileID: 6190485864586997154, guid: 6d0a32bb0b16f4b4382aa39e9e44999b, type: 3}
+  mountains: []
+  fields: []
+  sky: {fileID: 0}
+  type: 
   spawnPoint: {fileID: 0}
