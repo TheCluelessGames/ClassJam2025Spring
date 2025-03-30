@@ -9,6 +9,7 @@ TagManager:
   - Flower
   - Bucket
   - Obstacle
+  - LevelPart
   layers:
   - Default
   - TransparentFX

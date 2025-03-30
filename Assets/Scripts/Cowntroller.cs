@@ -6,7 +6,7 @@ using UnityEngine;
 public class Cowntroller : MonoBehaviour
 {
     UIController uIController;
-    private EnemyCowController.ObjectType currentType;
+    public EnemyCowController.ObjectType currentType;
     [SerializeField] private Transform UpperJumpPoint, LowerJumpPoint;
     [SerializeField] private float jumpSpeed = 5f;
     [SerializeField] private Animator animator;
@@ -73,24 +73,31 @@ public class Cowntroller : MonoBehaviour
         switch (currentType)
         {
             case EnemyCowController.ObjectType.White:
+                currentType = EnemyCowController.ObjectType.White;
                 newSprites = White;
                 break;
             case EnemyCowController.ObjectType.Red:
+                currentType = EnemyCowController.ObjectType.Red;
                 newSprites = Red;
                 break;
             case EnemyCowController.ObjectType.Green:
+                currentType = EnemyCowController.ObjectType.Green;
                 newSprites = Green;
                 break;
             case EnemyCowController.ObjectType.Blue:
+                currentType = EnemyCowController.ObjectType.Blue;
                 newSprites = Blue;
                 break;
             case EnemyCowController.ObjectType.Orange:
+                currentType = EnemyCowController.ObjectType.Orange;
                 newSprites = Orange;
                 break;
             case EnemyCowController.ObjectType.Purple:
+                currentType = EnemyCowController.ObjectType.Purple;
                 newSprites = Purple;
                 break;
             case EnemyCowController.ObjectType.Yellow:
+                currentType = EnemyCowController.ObjectType.Yellow;
                 newSprites = Yellow;
                 break;
         }
@@ -118,10 +125,20 @@ public class Cowntroller : MonoBehaviour
             {
                 Grow();
                 otherCow.Undress();
+                FluffCounter fluffCounter = new FluffCounter();
+                fluffCounter.FluffCollected();
             }
             else
             {
-                uIController.LoadScene("Highscore");
+                if(uIController != null)
+                {
+                    uIController.LoadScene("Highscore");
+                }
+                else
+                {
+                    Destroy(collision.gameObject);
+                }
+                
             }
 
         }

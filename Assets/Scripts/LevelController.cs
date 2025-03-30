@@ -8,26 +8,24 @@ public class LevelController : MonoBehaviour
     public enum Season { Spring, Summer, Autumn, Winter }
     public Season currentSeason;
     public GameObject[] levelParts;
+    public GameObject[] weather;
+    public GameObject[] seasonIcons;
     public Transform spawnPoint; // Where the Level Parts appear
     public float levelSpeed = 5f;
-    public int levelPartsPerSeason = 5;
-
-    private Queue<GameObject[]> seasonQueue;
-    private int seasonIndex = 1;
-    private int seasonType = 0;
-    private GameObject lastSpawnedPart;
+    public int levelPartsPerSeason = 2;
+    public int seasonIndex = 1;
+    public int seasonType = 0;
+    private GameObject lastSpawnedPart, currentWeather,currentSeasonIcon;
+    
 
     void Start()
     {
         currentSeason = LevelController.Season.Spring;
+        currentWeather = weather[0];
+        currentWeather.SetActive(true);
+        currentSeasonIcon = seasonIcons[0];
+        currentSeasonIcon.SetActive(true);
     }
-
-    void Update()
-    {
-        
-    }
-
-    
     public void SpawnLevelPart()
     {
         switch (currentSeason)
@@ -55,7 +53,32 @@ public class LevelController : MonoBehaviour
             seasonIndex = 0;
         }
     }
-
+    public void ChangeWeatherAndSeasonIcon()
+    {
+        currentWeather.SetActive(false);
+        currentSeasonIcon.SetActive(false);
+        switch (currentSeason)
+        {
+            case LevelController.Season.Spring:
+                currentWeather = weather[0];
+                currentSeasonIcon = weather[0];
+                break;
+            case LevelController.Season.Summer:
+                currentWeather = weather[1];
+                currentSeasonIcon = weather[1];
+                break;
+            case LevelController.Season.Autumn:
+                currentWeather = weather[2];
+                currentSeasonIcon = weather[2];
+                break;
+            case LevelController.Season.Winter:
+                currentSeasonIcon = weather[3];
+                currentWeather = weather[3];
+                break;
+        }
+        currentWeather.SetActive(true);
+        currentSeasonIcon.SetActive(true);
+    }
     private void NextSeason()
     {
         switch (currentSeason)

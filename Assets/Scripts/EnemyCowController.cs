@@ -8,6 +8,7 @@ public class EnemyCowController : MonoBehaviour
     public ObjectType selectedType;
     public Sprite NakedCowSprite;
     private SpriteRenderer spriteRenderer;
+    public GameObject particle;
     public ObjectType GetObjectType() { return selectedType; }
 
     private void Awake()
@@ -16,6 +17,7 @@ public class EnemyCowController : MonoBehaviour
     }
     public void Undress()
     {
+        particle.SetActive(true);
         spriteRenderer.sprite = NakedCowSprite;
     }
 }

@@ -8,6 +8,7 @@ public class UIController : MonoBehaviour
 {
     private CanvasGroup fadeCanvas;
     private static UIController instance;
+    public float fluffCount;
 
     private void Awake()
     {
@@ -54,6 +55,8 @@ public class UIController : MonoBehaviour
             yield return null;
         }
     }
+
+
 
     public void Exit()
     {

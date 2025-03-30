@@ -21,10 +21,6 @@ public class Parallax : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Finish"))
-        {
-            Destroy(this.gameObject);
-        }
         if (collision.CompareTag("Player"))
         {
             GameObject obj = Instantiate(nextBG, spawnPoint.position, Quaternion.identity);
