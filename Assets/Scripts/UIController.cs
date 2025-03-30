@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class UIController : MonoBehaviour
@@ -14,17 +15,14 @@ public class UIController : MonoBehaviour
 
     private void Awake()
     {
-        // Ensure only one instance exists
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject); // Persist across scenes
-        }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
+
+        Button myButton = GameObject.FindWithTag("Respawn")?.GetComponent<Button>();
+
+    if (myButton != null)
+    {
+        myButton.onClick.RemoveAllListeners(); // Remove old listeners
+        myButton.onClick.AddListener(() => LoadScene("Game")); // Re-add the listener
+    }  
 
         // Find the fade screen
         fadeCanvas = GameObject.FindWithTag("FadeScreen")?.GetComponent<CanvasGroup>();
