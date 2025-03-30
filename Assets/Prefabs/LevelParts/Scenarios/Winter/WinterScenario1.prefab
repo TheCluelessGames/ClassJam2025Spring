@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5869483357734587596}
   m_Layer: 0
-  m_Name: WinterScenario
+  m_Name: WinterScenario1
   m_TagString: LevelPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
