@@ -6,12 +6,11 @@ using UnityEngine;
 public class FluffCounter : MonoBehaviour
 {
     UIController uIController;
-    TextMeshProUGUI text;
+    public TextMeshProUGUI text;
     float fluff=0;
     // Start is called before the first frame update
     void Start()
     {
-        text = GetComponent<TextMeshProUGUI>();
         uIController = GameObject.Find("UIController").GetComponent<UIController>();
     }
 
@@ -19,7 +18,11 @@ public class FluffCounter : MonoBehaviour
     {
         fluff++;
         text.text = ""+fluff;
-        uIController.fluffCount++;
+        if (uIController != null)
+        {
+            uIController.fluffCount++;
+        }
+        
     }
 
     // Update is called once per frame

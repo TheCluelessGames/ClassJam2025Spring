@@ -5445,6 +5445,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2092203319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &830049634 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2688643469662949845, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
+  m_PrefabInstance: {fileID: 6672571628710579325}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1066700040
 GameObject:
   m_ObjectHideFlags: 0
@@ -20821,6 +20832,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2470388516123531413, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 830049634}
     - target: {fileID: 4244639631550789576, guid: 23980e7f571dba9478d46a8cf44435c9, type: 3}
       propertyPath: m_Name
       value: Gameplay_UI
