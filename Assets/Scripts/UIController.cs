@@ -10,6 +10,8 @@ public class UIController : MonoBehaviour
     private static UIController instance;
     public float fluffCount;
 
+    [SerializeField] private AudioClip mooButtonSound;
+
     private void Awake()
     {
         // Ensure only one instance exists
@@ -35,6 +37,7 @@ public class UIController : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         StartCoroutine(FadeAndLoadScene(sceneName));
+        SoundFXManager.Instance.PlaySoundFXClip(mooButtonSound, transform, 0.5f);
     }
 
     private IEnumerator FadeAndLoadScene(string sceneName)

@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fluffCount: 0
+  mooButtonSound: {fileID: 8300000, guid: c30684a2b15907342ad825c9b112f4a1, type: 3}
 --- !u!4 &883323480
 Transform:
   m_ObjectHideFlags: 0
