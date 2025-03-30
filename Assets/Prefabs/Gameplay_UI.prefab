@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 1021224481406728526}
   - component: {fileID: 2493344659788588263}
   m_Layer: 0
-  m_Name: CowIndicator
+  m_Name: CowIndicator2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2451,6 +2451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7216d8314dbf0b4da733cfcbec04e55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: {fileID: 0}
 --- !u!1 &8145364629288017888
 GameObject:
   m_ObjectHideFlags: 0
