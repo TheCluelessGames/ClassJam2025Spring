@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9068581865213460582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4663557000671885175, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Color.b
+      value: 0.065425634
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663557000671885175, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663557000671885175, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: selectedType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872153748525666191, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: particlePrefab
+      value: 
+      objectReference: {fileID: 731797671368090219, guid: cb9ea9822870c234aa2f052ae2b8df60, type: 3}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557315393241687283, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435996379146935861, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
+      propertyPath: m_Name
+      value: Blue_Cow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5b8a54ffb8288294a96b94b607e76035, type: 3}
