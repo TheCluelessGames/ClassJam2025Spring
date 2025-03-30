@@ -197,7 +197,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIController, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: 
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -392,6 +392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teamName: {fileID: 5977795181749560882}
   closeButton: {fileID: 4426187826741286872}
+  uiButtonSound: {fileID: 8300000, guid: 18940a6607293d74493eae0d8b8ccccd, type: 3}
 --- !u!1 &3072785866223013245
 GameObject:
   m_ObjectHideFlags: 0
