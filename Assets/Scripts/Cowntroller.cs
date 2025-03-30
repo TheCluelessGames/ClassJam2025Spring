@@ -49,7 +49,7 @@ public class Cowntroller : MonoBehaviour
     void StartMoving()
     {        
         targetPosition = (targetPosition == UpperJumpPoint.position) ? LowerJumpPoint.position : UpperJumpPoint.position;
-        animator.SetTrigger(targetPosition == LowerJumpPoint.position ? "JumpDown" : "JumpUp");
+        animator.SetTrigger("Jump");
         isJumping = true;
     }
 
