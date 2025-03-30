@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7ef5c11e2465c847bd1a4b7d8e442dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 6c5727c6f65df674792c1c815d6c049a, type: 3}
   currentType: 3
   UpperJumpPoint: {fileID: 0}
   LowerJumpPoint: {fileID: 0}
@@ -103,6 +104,7 @@ MonoBehaviour:
   - {fileID: -1879403302, guid: 5ffdad25d788ed34982d48de09d4cda3, type: 3}
   - {fileID: -1976535400, guid: 5ffdad25d788ed34982d48de09d4cda3, type: 3}
   - {fileID: 726088569, guid: 5ffdad25d788ed34982d48de09d4cda3, type: 3}
+  fluffCounter: {fileID: 0}
 --- !u!61 &1119285970635670590
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Cowntroller : MonoBehaviour
 {
+    [SerializeField] private AudioClip sound;
+    private AudioSource audioSource;
     UIController uIController;
     public EnemyCowController.ObjectType currentType;
     [SerializeField] private Transform UpperJumpPoint, LowerJumpPoint, body;
@@ -26,6 +28,7 @@ public class Cowntroller : MonoBehaviour
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         uIController = GameObject.Find("UIController").GetComponent<UIController>();
         currentType = EnemyCowController.ObjectType.White;
         
@@ -39,6 +42,7 @@ public class Cowntroller : MonoBehaviour
         if (!isJumping && Input.GetKeyDown(KeyCode.Space))
         {
             StartMoving();
+            SoundFXManager.Instance.PlaySoundFXClip(sound, transform, 0.5f);
         }
 
         if (isJumping)
