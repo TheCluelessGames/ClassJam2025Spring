@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4752650981922778749, guid: 89b4e118736c16b45982b69063912744, type: 3}
+      propertyPath: fields.Array.data[0]
+      value: 
+      objectReference: {fileID: 4961875822069182138}
     - target: {fileID: 5811205613198787026, guid: 89b4e118736c16b45982b69063912744, type: 3}
       propertyPath: m_Name
       value: CloseSpring
@@ -61,3 +65,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89b4e118736c16b45982b69063912744, type: 3}
+--- !u!1 &4961875822069182138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5811205613198787026, guid: 89b4e118736c16b45982b69063912744, type: 3}
+  m_PrefabInstance: {fileID: 1475372471605538664}
+  m_PrefabAsset: {fileID: 0}

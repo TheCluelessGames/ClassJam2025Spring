@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4752650981922778749, guid: 89b4e118736c16b45982b69063912744, type: 3}
+      propertyPath: fields.Array.data[3]
+      value: 
+      objectReference: {fileID: 2144189719197445777}
     - target: {fileID: 5811205613198787026, guid: 89b4e118736c16b45982b69063912744, type: 3}
       propertyPath: m_Name
       value: CloseWinter
@@ -61,3 +65,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89b4e118736c16b45982b69063912744, type: 3}
+--- !u!1 &2144189719197445777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5811205613198787026, guid: 89b4e118736c16b45982b69063912744, type: 3}
+  m_PrefabInstance: {fileID: 5576649889640001347}
+  m_PrefabAsset: {fileID: 0}

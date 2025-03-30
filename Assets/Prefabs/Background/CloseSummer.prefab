@@ -8,9 +8,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4752650981922778749, guid: 89b4e118736c16b45982b69063912744, type: 3}
+      propertyPath: fields.Array.data[1]
+      value: 
+      objectReference: {fileID: 8637453138529535623}
     - target: {fileID: 5811205613198787026, guid: 89b4e118736c16b45982b69063912744, type: 3}
       propertyPath: m_Name
-      value: BGClose
+      value: CloseSummer
       objectReference: {fileID: 0}
     - target: {fileID: 6750742631794015117, guid: 89b4e118736c16b45982b69063912744, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57,3 +61,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89b4e118736c16b45982b69063912744, type: 3}
+--- !u!1 &8637453138529535623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5811205613198787026, guid: 89b4e118736c16b45982b69063912744, type: 3}
+  m_PrefabInstance: {fileID: 2845124233596143445}
+  m_PrefabAsset: {fileID: 0}
