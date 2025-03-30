@@ -145,3 +145,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedType: 6
   NakedCowSprite: {fileID: 0}
+  particlePrefab: {fileID: 731797671368090219, guid: 6456b17bc30889446bf93da8a075d7cd, type: 3}

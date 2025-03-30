@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 3677936788322833775}
   - component: {fileID: 144346807571721959}
   - component: {fileID: 8893175341237644405}
+  - component: {fileID: 6824576005267004304}
   m_Layer: 0
   m_Name: Bucket
-  m_TagString: Bucket
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,3 +131,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
+--- !u!114 &6824576005267004304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6007210860591998394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e6aaac12848341a7c9d7970d3d862, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedType: 3
+  NakedCowSprite: {fileID: 0}
+  particlePrefab: {fileID: 7696814110467316985, guid: c0826df753aa18c469e8b139e1320eb7, type: 3}

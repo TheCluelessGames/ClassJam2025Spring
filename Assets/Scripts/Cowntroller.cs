@@ -7,8 +7,9 @@ public class Cowntroller : MonoBehaviour
 {
     UIController uIController;
     public EnemyCowController.ObjectType currentType;
-    [SerializeField] private Transform UpperJumpPoint, LowerJumpPoint;
+    [SerializeField] private Transform UpperJumpPoint, LowerJumpPoint, body;
     [SerializeField] private float jumpSpeed = 5f;
+    [SerializeField] private float scale = 1.05f;
     [SerializeField] private Animator animator;
     [SerializeField] private List<SpriteRenderer> CurrentSprites;
     [SerializeField] private List<Sprite> White;
@@ -64,7 +65,7 @@ public class Cowntroller : MonoBehaviour
 
     private void Grow()
     {
-        Debug.Log("Bigger fur, yaay!");
+        body.localScale *= scale;
     }
 
     private void ChangeColour()
@@ -146,57 +147,58 @@ public class Cowntroller : MonoBehaviour
         if (collision.CompareTag("Bucket"))
         {
             currentType = EnemyCowController.ObjectType.White;
+            collision.gameObject.GetComponent<EnemyCowController>().Poof();
+            ChangeColour();
             Destroy(collision.gameObject);
         }
         if (collision.CompareTag("Flower"))
         {
+            collision.gameObject.GetComponent<EnemyCowController>().Poof();
             EnemyCowController.ObjectType newType = collision.gameObject.GetComponent<EnemyCowController>().selectedType;
-            switch (currentType)
+            if(currentType == newType)
             {
-                case EnemyCowController.ObjectType.White:
-                    currentType = newType;
-                    break;
-                case EnemyCowController.ObjectType.Red:
-                    if(newType == EnemyCowController.ObjectType.Blue)
-                    {
-                        currentType = EnemyCowController.ObjectType.Purple;
-                    } else if (newType == EnemyCowController.ObjectType.Yellow)
-                    {
-                        currentType = EnemyCowController.ObjectType.Orange;
-                    }
-                    else {
+                return;
+            } else
+            {
+                switch (currentType)
+                {
+                    case EnemyCowController.ObjectType.White:
                         currentType = newType;
-                    }
-                    break;
-                case EnemyCowController.ObjectType.Yellow:
-                    if (newType == EnemyCowController.ObjectType.Blue)
-                    {
-                        currentType = EnemyCowController.ObjectType.Green;
-                    }
-                    else if (newType == EnemyCowController.ObjectType.Red)
-                    {
-                        currentType = EnemyCowController.ObjectType.Orange;
-                    }
-                    else
-                    {
-                        currentType = newType;
-                    }
-                    break;
-                case EnemyCowController.ObjectType.Blue:
-                    if (newType == EnemyCowController.ObjectType.Yellow)
-                    {
-                        currentType = EnemyCowController.ObjectType.Green;
-                    }
-                    else if (newType == EnemyCowController.ObjectType.Red)
-                    {
-                        currentType = EnemyCowController.ObjectType.Purple;
-                    }
-                    else
-                    {
-                        currentType = newType;
-                    }
-                    break;
+                        break;
+                    case EnemyCowController.ObjectType.Red:
+                        if (newType == EnemyCowController.ObjectType.Blue)
+                        {
+                            currentType = EnemyCowController.ObjectType.Purple;
+                        }
+                        else if (newType == EnemyCowController.ObjectType.Yellow)
+                        {
+                            currentType = EnemyCowController.ObjectType.Orange;
+                        }
+                        break;
+                    case EnemyCowController.ObjectType.Yellow:
+                        if (newType == EnemyCowController.ObjectType.Blue)
+                        {
+                            currentType = EnemyCowController.ObjectType.Green;
+                        }
+                        else if (newType == EnemyCowController.ObjectType.Red)
+                        {
+                            currentType = EnemyCowController.ObjectType.Orange;
+                        }
+                        break;
+                    case EnemyCowController.ObjectType.Blue:
+                        if (newType == EnemyCowController.ObjectType.Yellow)
+                        {
+                            currentType = EnemyCowController.ObjectType.Green;
+                        }
+                        else if (newType == EnemyCowController.ObjectType.Red)
+                        {
+                            currentType = EnemyCowController.ObjectType.Purple;
+                        }
+                        break;
+                }
             }
+            
+            ChangeColour();
             Destroy(collision.gameObject);
         }
     }

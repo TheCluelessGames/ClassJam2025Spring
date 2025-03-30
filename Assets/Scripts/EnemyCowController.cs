@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+using static UnityEngine.ParticleSystem;
 
 public class EnemyCowController : MonoBehaviour
 {
@@ -8,7 +10,7 @@ public class EnemyCowController : MonoBehaviour
     public ObjectType selectedType;
     public Sprite NakedCowSprite;
     private SpriteRenderer spriteRenderer;
-    public GameObject particle;
+    public GameObject particlePrefab;
     public ObjectType GetObjectType() { return selectedType; }
 
     private void Awake()
@@ -17,7 +19,13 @@ public class EnemyCowController : MonoBehaviour
     }
     public void Undress()
     {
-        particle.SetActive(true);
+        Poof();
         spriteRenderer.sprite = NakedCowSprite;
+    }
+
+    public void Poof()
+    {
+        GameObject particle = Instantiate(particlePrefab, transform.position, Quaternion.identity);
+        Destroy(particle, particle.GetComponent<ParticleSystem>().main.duration);
     }
 }

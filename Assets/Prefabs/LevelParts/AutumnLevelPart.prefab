@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8502092004691506, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
+      propertyPath: m_TagString
+      value: LevelPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003876984685917349, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
+      propertyPath: m_TagString
+      value: LevelPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589866858148216877, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
+      propertyPath: m_TagString
+      value: LevelPart
+      objectReference: {fileID: 0}
     - target: {fileID: 1597274909672912557, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -16,6 +28,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f09a4644c29eaa44f9249f1d4c0be84c, type: 3}
+    - target: {fileID: 3171377843467426681, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
+      propertyPath: m_TagString
+      value: LevelPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267984356705007314, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
+      propertyPath: m_TagString
+      value: LevelPart
+      objectReference: {fileID: 0}
     - target: {fileID: 3478452173474933731, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -55,6 +75,10 @@ PrefabInstance:
     - target: {fileID: 3478452173474933731, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069542548321152926, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
+      propertyPath: m_TagString
+      value: LevelPart
       objectReference: {fileID: 0}
     - target: {fileID: 5579170422634026857, guid: d4281d81f05ae864ebaf7a6e2acee192, type: 3}
       propertyPath: m_Sprite
