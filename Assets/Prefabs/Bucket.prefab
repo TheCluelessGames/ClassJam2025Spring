@@ -143,6 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a89e6aaac12848341a7c9d7970d3d862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 31a44fcf10d9e864f8fa6443d02af88d, type: 3}
   selectedType: 3
   NakedCowHeadSprite: {fileID: 0}
   NakedCowBodySprite: {fileID: 0}

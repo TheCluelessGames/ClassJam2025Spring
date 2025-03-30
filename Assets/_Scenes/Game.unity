@@ -5190,6 +5190,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2417315781008192999, guid: 6dbde4c99f7cd924f8e8d2e98d49caca, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1300
+      objectReference: {fileID: 0}
     - target: {fileID: 6713516589526154025, guid: 6dbde4c99f7cd924f8e8d2e98d49caca, type: 3}
       propertyPath: m_Name
       value: UIController

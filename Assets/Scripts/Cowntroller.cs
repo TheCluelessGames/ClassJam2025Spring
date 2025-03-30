@@ -138,10 +138,6 @@ public class Cowntroller : MonoBehaviour
                 {
                     uIController.LoadScene("Highscore");
                 }
-                else
-                {
-                    Destroy(collision.gameObject);
-                }
                 
             }
 

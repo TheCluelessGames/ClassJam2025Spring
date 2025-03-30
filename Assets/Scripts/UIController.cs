@@ -8,14 +8,13 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     private CanvasGroup fadeCanvas;
-    private static UIController instance;
     public float fluffCount;
 
     [SerializeField] private AudioClip mooButtonSound;
 
     private void Awake()
     {
-
+        
         Button myButton = GameObject.FindWithTag("Respawn")?.GetComponent<Button>();
 
     if (myButton != null)
@@ -30,6 +29,7 @@ public class UIController : MonoBehaviour
         {
             Debug.LogError("No UI CanvasGroup found! Make sure you have a UI Image tagged 'FadeScreen'.");
         }
+        StartCoroutine(Fade(-1));
     }
 
     public void LoadScene(string sceneName)
@@ -49,7 +49,7 @@ public class UIController : MonoBehaviour
     {
         if (fadeCanvas == null) yield break;
 
-        float fadeSpeed = 1f; // Adjust fade speed
+        float fadeSpeed = 0.5f; // Adjust fade speed
         while (!Mathf.Approximately(fadeCanvas.alpha, targetAlpha))
         {
             fadeCanvas.alpha = Mathf.MoveTowards(fadeCanvas.alpha, targetAlpha, fadeSpeed * Time.deltaTime);
