@@ -20525,11 +20525,16 @@ PrefabInstance:
       propertyPath: UpperJumpPoint
       value: 
       objectReference: {fileID: 828389336}
+    - target: {fileID: 3720497936424148951, guid: 96c29393c54072b4591b5a8141ec85a4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8997524391910306963, guid: 96c29393c54072b4591b5a8141ec85a4, type: 3}
       propertyPath: m_Name
       value: PlayerCow
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1119285970635670590, guid: 96c29393c54072b4591b5a8141ec85a4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

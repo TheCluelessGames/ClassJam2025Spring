@@ -133,7 +133,6 @@ public class Cowntroller : MonoBehaviour
                 otherCow.Undress();
                 fluffCounter.FluffCollected();
                 currentType = EnemyCowController.ObjectType.White;
-                collision.gameObject.GetComponent<EnemyCowController>().Poof();
                 ChangeColour();
             }
             else
@@ -197,6 +196,8 @@ public class Cowntroller : MonoBehaviour
                         {
                             currentType = EnemyCowController.ObjectType.Purple;
                         }
+                        break;
+                    default:
                         break;
                 }
             }

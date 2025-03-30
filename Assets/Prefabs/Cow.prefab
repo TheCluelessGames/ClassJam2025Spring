@@ -93,8 +93,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: 408cb830d1ebb304c87013d24b2d30ba, type: 3}
   selectedType: 0
-  NakedCowHeadSprite: {fileID: 0}
-  NakedCowBodySprite: {fileID: 0}
+  NakedCowHeadSprite: {fileID: 1356682374, guid: db5ebbc1533de3e42942a23588cce720, type: 3}
+  NakedCowBodySprite: {fileID: -696540238, guid: dd0cdceef5dd50c49936d166950bddab, type: 3}
   headRenderer: {fileID: 3705657644596577383}
   bodyRenderer: {fileID: 5516436699111264667}
   particlePrefab: {fileID: 731797671368090219, guid: 29d7aa6f158af7743b9b148a75670f16, type: 3}

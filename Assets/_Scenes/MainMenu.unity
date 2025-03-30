@@ -402,6 +402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIController
       objectReference: {fileID: 0}
+    - target: {fileID: 6713516589526154025, guid: 6dbde4c99f7cd924f8e8d2e98d49caca, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -420,9 +424,29 @@ PrefabInstance:
       value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2162611542744863164, guid: 03a341aba1fe00d4f804c5b0a614869e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162611542744863164, guid: 03a341aba1fe00d4f804c5b0a614869e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162611542744863164, guid: 03a341aba1fe00d4f804c5b0a614869e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 883323479}
+    - target: {fileID: 2162611542744863164, guid: 03a341aba1fe00d4f804c5b0a614869e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162611542744863164, guid: 03a341aba1fe00d4f804c5b0a614869e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415916718249120723, guid: 03a341aba1fe00d4f804c5b0a614869e, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6646890192191458300, guid: 03a341aba1fe00d4f804c5b0a614869e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
